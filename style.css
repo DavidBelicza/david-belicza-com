@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:900|Roboto+Slab');
+
+body {
+    background: #ffffff;
+    margin: 15px;
+}
+
+a, a:hover, a:visited, a:focus {
+    text-decoration: none;
+}
+
+.block-status {
+    height: 25px;
+}
+.block-status p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 8px;
+    color: #222222;
+    line-height: 25px;
+    margin: 0 0 0 6px;
+    float: left;
+}
+.block-status img {
+    float: left;
+    border-radius: 50%;
+    width: 25px;
+    height: auto;
+}
+.block-status p span {
+    background-color: #2afc00;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.block-logo {
+    margin: 75px 0 0 0;
+    text-align: center;
+}
+
+.block-logo img {
+    width: 65px;
+    height: auto;
+}
+
+.block-title {
+    margin: 15px 0 0 0;
+}
+
+.block-title h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #222222;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.block-intro p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    text-align: center;
+    color: #222222;
+    margin: 225px 0 60px 0;
+}
+
+.block-share .platform {
+    margin: 0 auto;
+    /*width: 339px;*/
+    width: 226px;
+    background-color: #eeeeee;
+    border-bottom: 3px solid #cccccc;
+    border-right: 3px solid #cccccc;
+    border-radius: 10px;
+    padding: 8px 16px;
+}
+
+.emblem {
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    background-image: url("/images/social.png");
+    background-size: 500px auto;
+    text-indent: -99999px;
+    margin: 8px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.6;
+    transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+}
+.emblem:hover {
+    opacity: 1;
+    background-color: transparent;
+}
+
+.emblem-facebook {
+    background-position: -15px -15px;
+}
+.emblem-linkedin {
+    background-position: -304px -15px;
+}
+.emblem-twitter {
+    background-position: -63px -15px;
+    display: none;
+}
+.emblem-github {
+    background-position: -111px -207px;
+}
+.emblem-youtube {
+    display: none;
+    background-position: -15px -63px;
+}
+.emblem-email {
+    background-position: -111px -111px;
+}
+
+.block-author {
+    margin-top: 200px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 8px;
+    text-align: center;
+    color: #222222;
+}
+
+@media screen and (max-width: 600px) {
+    .block-share .platform {
+        width: 169px;
+    }
+    .block-intro p {
+        margin: 50px 0 30px 0;
+    }
+    .block-author {
+        margin-top: 100px;
+    }
+}
